@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmName": {
+      "value": "myUbuntuVM"
+    },
+    "adminUsername": {
+      "value": "azureuser"
+    },
+    "adminPassword": {
+      "value": "YOUR_SECURE_PASSWORD_HERE"
+    },
+    "location": {
+      "value": "westus"
+    },
+    "vmSize": {
+      "value": "Standard_B2s_v2"
+    }
+  }
+}
